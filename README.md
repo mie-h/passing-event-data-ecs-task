@@ -12,7 +12,7 @@ EventBridge listens to S3 PutObject event when a file is uploaded to S3. This Ev
 
 # How to do it
 In order to pass s3 key to ECS task as an environment variable, EventBridge Rule target has to be configured. This configuration is not possible thtough AWS console. Use [put_targets](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/events/client/put_targets.html).
-See update_ecs_task.py for more detail.
+See [update_ecs_task.py](https://github.com/mie-h/passing-event-data-ecs-task/blob/main/update_ecs_task.py) for more detail.
 
 
 # Things I learned
